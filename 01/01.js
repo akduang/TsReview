@@ -1,1 +1,6 @@
-console.log("Hello,world");
+"use strict";
+// console.log("Hello,world")
+function greet(person, date) {
+    console.log(`Hello ${person}, today is ${date}!`);
+}
+greet('xiao', '2023-2-15');
